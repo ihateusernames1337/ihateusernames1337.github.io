@@ -1,0 +1,100 @@
+@font-face{
+    font-family: 'Iosevka';
+    src: url(../fonts/iosevka-regular.ttf) format('truetype');
+}
+
+html{
+    background-color: white;
+    overflow-y: scroll;
+}
+
+body{
+    font-size: 19px;
+    font-family: 'Iosevka';
+    line-height: 75%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+@media (max-width: 1000px) {
+    body{
+        font-size: 38px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #video{
+        width: 100%;
+    }
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+	text-decoration-color: #0d8abf;
+	text-decoration-thickness: 10%;
+}
+
+p{
+    line-height: 150%;
+}
+
+#navbar{
+    color: #9a9a9a;
+    margin-top: 0px;
+    padding-top: 19px;
+}
+
+#navbar_link_1{
+    color: #9a9a9a;
+    font-weight: normal;
+}
+
+#navbar_link_1:hover{
+    font-weight: normal;
+}
+
+#title{
+    line-height: 75%;
+}
+
+#dummy{
+    visibility: hidden;
+    pointer-event: none;
+}
+
+hr{
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+}
+
+#ihateusernames1337{
+    float: right;
+    font-weight: normal;
+    text-decoration: none;
+    color: #9a9a9a;
+}
+
+#ihateusernames1337:hover{
+    text-decoration: underline;
+	text-decoration-color: #0d8abf;
+	text-decoration-thickness: 10%;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    width: 80%;
+}
+
+#first_title{
+	margin-top: 0px;
+}
